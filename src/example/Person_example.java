@@ -1,10 +1,12 @@
 package example;
+import java.io.Serializable; // This is for the serializable manner as we can see in the next lines of the code
 import java.util.*;
+import javax.jws.WebService;
 import javax.xml.bind.annotation.XmlRootElement;
+@WebService
 @XmlRootElement(name="Person")
-public class Person_example {
+public class Person_example implements Serializable {
     private  String Name;
-    private int age;
     private Boolean Sex;
     private int Id;
     private int Age;

@@ -1,6 +1,5 @@
 package jarx.service;
 import java.util.*;
-
 // Here we can set in the next lines of the code
 
 import javax.ws.rs.*;
